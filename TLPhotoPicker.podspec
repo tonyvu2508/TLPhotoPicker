@@ -7,7 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary          = 'TLPhotoPicker'
   spec.description      = 'TLPhotoPicker'
   spec.source           = { :git => 'https://github.com/tonyvu2508/TLPhotoPicker.git', :tag => "#{spec.version}" }
-  spec.source_files     = 'Reachability.h,m'
-  spec.source_file      = 'TLPhotoPicker/TLPhotoPicker/**/*.{swift}'
+  spec.source_files      = "TLPhotoPicker/TLPhotoPicker/**/*.{swift}"
   spec.exclude_files     = 'Classes/Exclude'
 end

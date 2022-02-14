@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'TLPhotoPicker'
   spec.description  = 'TLPhotoPicker'
   spec.source       = { :git => 'https://github.com/tonyvu2508/TLPhotoPicker.git' }
-  spec.source_files = '/**/*'
+  spec.source_files = 'Classes/*.{swift}'
   # spec.framework    = 'SystemConfiguration'
 end
